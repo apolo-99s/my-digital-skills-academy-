@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Academy from "./Academy";
+import { translations } from "./translations";
 
 const VALID_CODES = [
   "DZSKILL2025",
@@ -18,6 +19,17 @@ function Landing({ onEnter }) {
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+const [language, setLanguage] = useState(
+  localStorage.getItem("language") || "fr"
+);
+
+const t = translations[language];
+
+useEffect(() => {
+  localStorage.setItem("language", language);
+  document.documentElement.lang = language;
+  document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+}, [language]);
 
   const handleAccess = () => {
     const trimmed = code.trim().toUpperCase();
@@ -47,9 +59,22 @@ function Landing({ onEnter }) {
         <div style={{ fontWeight: 800, fontSize: 16, color: "#fff" }}>
           <span style={{ color: "#7C3AED" }}>Digital</span>Skills.dz
         </div>
-        <div style={{ fontSize: 12, color: "#374151", background: "#0D0D14", border: "1px solid #1C1C28", borderRadius: 20, padding: "5px 12px" }}>
-          🇩🇿 Formation Professionnelle
-        </div>
+      <select
+  value={language}
+  onChange={(e) => setLanguage(e.target.value)}
+  style={{
+    background: "#0D0D14",
+    color: "#fff",
+    border: "1px solid #1C1C28",
+    borderRadius: 20,
+    padding: "6px 12px",
+    cursor: "pointer"
+  }}
+>
+  <option value="fr">🇫🇷 Français</option>
+  <option value="ar">🇩🇿 العربية</option>
+  <option value="en">🇬🇧 English</option>
+</select>
       </nav>
 
       <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "48px 20px", textAlign: "center" }}>
