@@ -125,7 +125,7 @@ function Landing({ onEnter }) {
 
           <div style={{ marginTop: 20, paddingTop: 16, borderTop: "1px solid #1C1C28" }}>
             <div style={{ fontSize: 12, color: "#374151", textAlign: "center", marginBottom: 8 }}>Pas encore acheté ?</div>
-            <a href="https://wa.me/YOUR_NUMBER?text=Je%20veux%20acheter%20la%20formation%20Digital%20Skills"
+            <a href="https://wa.me/213697105325?text=Je%20veux%20acheter%20la%20formation%20Digital%20Skills"
               target="_blank" rel="noreferrer"
               style={{ display: "block", background: "#064E3B", border: "1px solid #16A34A44", borderRadius: 10, padding: "12px", textAlign: "center", color: "#4ADE80", fontSize: 14, fontWeight: 600, textDecoration: "none" }}>
               💬 Commander via WhatsApp
