@@ -9,7 +9,7 @@
 // ─────────────────────────────────────────────
 import { useState } from "react";
 import { skills } from "./data/skills";
-import { translations } from "./translations";
+import { translations } from "./data/translations";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SkillCard from "./components/SkillCard";
