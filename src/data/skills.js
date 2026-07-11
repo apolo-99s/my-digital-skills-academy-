@@ -1922,3 +1922,9 @@ export const videoEditing = {
     }
   ]
 };
+// ─────────────────────────────────────────────
+// EXPORT — main array used by Academy.jsx
+// To add a new skill: import it above and
+// add it to this array. That's it.
+// ─────────────────────────────────────────────
+export const skills = [graphicDesign, socialMedia, videoEditing];
