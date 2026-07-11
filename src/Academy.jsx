@@ -12,7 +12,7 @@ import { skills } from "./data/skills";
 import { translations } from "./translations";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import SkillCard from "./components/skillcard";
+import SkillCard from "./components/SkillCard";
 import LevelTabs from "./components/LevelTabs";
 import LessonCard from "./components/LessonCard";
 import LessonView from "./components/LessonView";
