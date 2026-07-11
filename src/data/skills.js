@@ -1339,3 +1339,586 @@ export const socialMedia = {
     }
   ]
 };
+// ─────────────────────────────────────────────
+// SKILL 3: VIDEO EDITING
+// ─────────────────────────────────────────────
+export const videoEditing = {
+  id: "video",
+  icon: "🎬",
+  color: "#DC2626",
+  accent: "#F87171",
+  bg: "#1A0303",
+  earning: "8,000 – 80,000 DZD / project",
+  firstClient: { fr: "4–6 semaines", ar: "4–6 أسابيع", en: "4–6 weeks" },
+  startTool: "CapCut (free) → DaVinci Resolve (free)",
+  title: { fr: "Montage Vidéo", ar: "مونتاج الفيديو", en: "Video Editing" },
+  subtitle: { fr: "Création de Contenu", ar: "إنشاء المحتوى", en: "Content Creation" },
+  tagline: {
+    fr: "La compétence créative la plus demandée de la décennie",
+    ar: "أكثر مهارة إبداعية مطلوبة في العقد",
+    en: "The most in-demand creative skill of the decade"
+  },
+  levels: [
+    {
+      name: { fr: "Débutant", ar: "مبتدئ", en: "Beginner" },
+      badge: "🌱",
+      duration: { fr: "Semaines 1–4", ar: "الأسابيع 1–4", en: "Weeks 1–4" },
+      goal: {
+        fr: "Monter votre première vidéo complète avec CapCut sur téléphone",
+        ar: "تعديل أول فيديو كامل باستخدام CapCut على هاتفك",
+        en: "Edit your first complete video using CapCut on your phone"
+      },
+      lessons: [
+        {
+          id: "video-b-1",
+          title: {
+            fr: "Installer CapCut et Monter votre Première Vidéo",
+            ar: "تنصيب CapCut وتعديل أول فيديو",
+            en: "Install CapCut and Edit Your First Video"
+          },
+          image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+          layout: "top",
+          steps: {
+            fr: [
+              "Téléchargez CapCut depuis Google Play ou App Store — complètement gratuit, sans filigrane sur les exports.",
+              "Ouvrez CapCut → bouton '+' → sélectionnez vidéos et photos → Ajouter → votre timeline s'ouvre.",
+              "Timeline en bas: vos clips apparaissent comme des blocs. Tapez un clip pour le sélectionner (bordure blanche). Panneau bas: Split, Delete, Speed et plus.",
+              "Couper un clip: faites glisser la ligne blanche (tête de lecture) vers le moment voulu → Split. Le clip devient 2 pièces. Sélectionnez la partie non voulue → Delete.",
+              "Ajouter musique: Audio → Sons → recherchez une chanson → '+' pour ajouter à la timeline. Volume → baissez à environ 30% si vous avez du dialogue.",
+              "Ajouter texte: Texte → Ajouter du texte → tapez → choisissez police/couleur → faites glisser sur l'écran. Tapez le clip texte sur la timeline pour changer durée.",
+              "Exporter: flèche en haut à droite → 1080p et 30fps → exportez → sauvegardé dans la galerie."
+            ],
+            ar: [
+              "حمّل CapCut من Google Play أو App Store — مجاني كامل، بدون علامة مائية على التصدير.",
+              "افتح CapCut → زر '+' → اختار فيديوهات وصور → أضف → يفتح الجدول الزمني.",
+              "الجدول الزمني في الأسفل: الكليبات تظهر كبلوكات. اضغط كليب لتحديده (حد أبيض). اللوحة السفلية: Split، Delete، Speed والمزيد.",
+              "قطع كليب: اسحب الخط الأبيض (رأس التشغيل) للحظة المطلوبة → Split. الكليب يصبح قطعتين. حدّد الجزء غير المرغوب → Delete.",
+              "إضافة موسيقى: Audio → أصوات → ابحث عن أغنية → '+' لإضافتها للجدول. Volume → خفّض لحوالي 30% إذا كان لديك حوار.",
+              "إضافة نص: نص → إضافة نص → اكتب → اختار خط/لون → اسحب على الشاشة. اضغط كليب النص في الجدول لتغيير المدة.",
+              "التصدير: سهم أعلى اليمين → 1080p و30fps → صدّر → يحفظ في المعرض."
+            ],
+            en: [
+              "Download CapCut from Google Play or App Store — completely free, no watermark on exports.",
+              "Open CapCut → '+' button → select videos and photos → Add → your timeline opens.",
+              "Timeline at bottom: clips appear as blocks. Tap a clip to select it (white border). Bottom panel: Split, Delete, Speed and more.",
+              "Cut a clip: drag the white line (playhead) to the moment you want → Split. Clip becomes 2 pieces. Select unwanted part → Delete.",
+              "Add music: Audio → Sounds → search for a song → '+' to add to timeline. Volume → lower to about 30% if you have dialogue.",
+              "Add text: Text → Add Text → type → choose font/color → drag on screen. Tap text clip on timeline to change duration.",
+              "Export: arrow top right → 1080p and 30fps → export → saved to gallery."
+            ]
+          },
+          method: {
+            fr: "Filmez exactement 10 courts clips de n'importe quoi. Importez-les tous dans CapCut. Coupez-les pour garder seulement les 3 meilleures secondes de chacun. Ajoutez de la musique. Exportez. Regardez le résultat et notez ce qui semble bon et ce qui semble bizarre. Cette auto-critique EST l'apprentissage.",
+            ar: "صوّر بالضبط 10 كليبات قصيرة من أي شيء. استوردهم كلهم في CapCut. اقطعهم للاحتفاظ بأحسن 3 ثوانٍ من كل واحد. زيد موسيقى. صدّر. شاهد النتيجة ولاحظ ما يبدو جيداً وما يبدو غريباً. هذا النقد الذاتي هو التعلم.",
+            en: "Film exactly 10 short clips of anything. Import all into CapCut. Cut them to keep only the best 3 seconds of each. Add music. Export. Watch the result and note what looks good and what looks weird. That self-critique IS the learning."
+          },
+          exercise: {
+            fr: "Créez une vidéo de 60 secondes sur votre journée avec clips filmés aujourd'hui. Doit inclure: minimum 8 clips différents, musique de fond, votre nom en texte au début, titre simple à la fin. Exportez et regardez.",
+            ar: "أنشئ فيديو 60 ثانية عن يومك باستخدام كليبات مصوّرة اليوم. يجب أن يتضمن: 8 كليبات مختلفة على الأقل، موسيقى خلفية، اسمك كنص في البداية، عنوان بسيط في النهاية. صدّر وشاهد.",
+            en: "Create a 60-second video about your day using clips filmed today. Must include: minimum 8 different clips, background music, your name as text at the start, simple title at the end. Export and watch."
+          },
+          tip: {
+            fr: "💡 Erreur débutant la plus commune: clips trop longs. Chaque clip dans une vidéo sociale devrait faire 1,5–4 secondes maximum. En cas de doute, coupez plus tôt. Le montage rapide semble toujours plus professionnel.",
+            ar: "💡 أكثر خطأ مبتدئ شيوعاً: كليبات طويلة جداً. كل كليب في فيديو سوشيال يجب أن يكون 1.5–4 ثوانٍ كحد أقصى. في حالة الشك، اقطع أبكر. المونتاج السريع دائماً يبدو أكثر احترافية.",
+            en: "💡 Most common beginner mistake: clips too long. Every clip in a social video should be 1.5–4 seconds maximum. When in doubt, cut earlier. Fast pacing always looks more professional."
+          }
+        },
+        {
+          id: "video-b-2",
+          title: {
+            fr: "Couper sur le Temps — Montage Synchronisé à la Musique",
+            ar: "القطع على الإيقاع — مونتاج متزامن مع الموسيقى",
+            en: "Cut on the Beat — Music-Driven Editing"
+          },
+          image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80",
+          layout: "right",
+          steps: {
+            fr: [
+              "Montage synchronisé = chaque coupure tombe EXACTEMENT quand la musique a un coup de batterie ou une basse. Crée un effet hypnotique qui rend les vidéos addictives.",
+              "Étape 1: choisissez d'abord votre musique. Avant d'ajouter les clips, ajoutez votre piste musicale à la timeline. Écoutez-la une fois entièrement.",
+              "Étape 2: marquez les temps. Dans CapCut, lisez l'audio et tapez Beats pour détecter automatiquement les temps — ajoute des marqueurs. Sinon: jouez l'audio et tapez l'écran sur chaque temps.",
+              "Étape 3: coupez les clips pour qu'ils correspondent: placez vos clips et coupez chacun pour qu'il se termine exactement là où tombe un marqueur de temps.",
+              "Étape 4: vérifiez. Lisez la vidéo entière en FERMANT LES YEUX et en écoutant. Chaque fois que vous sentez un temps, ouvrez brièvement les yeux. Si une coupure est là — bien. Sinon — ajustez.",
+              "Chansons rapides: coupez tous les 1–2 temps. Chansons lentes: tous les 4–8 temps. Build-ups dramatiques: tenez un clip pendant le build, coupez au pic."
+            ],
+            ar: [
+              "المونتاج المتزامن = كل قطعة تقع بالضبط عندما تكون في الموسيقى ضربة طبل أو باس. ينشئ تأثيراً مفتونا يجعل الفيديوهات إدمانية.",
+              "الخطوة 1: اختار الموسيقى أولاً. قبل إضافة الكليبات، أضف مقطوعتك الموسيقية للجدول. استمع إليها مرة كاملة.",
+              "الخطوة 2: ضع علامات على الإيقاعات. في CapCut، شغّل الصوت واضغط Beats للكشف التلقائي عن الإيقاعات — يضيف علامات. وإلا: شغّل الصوت واضغط الشاشة على كل إيقاع.",
+              "الخطوة 3: اقطع الكليبات لتتطابق: ضع كليباتك واقطع كل واحد لينتهي بالضبط حيث يقع علامة الإيقاع.",
+              "الخطوة 4: تحقق. شغّل الفيديو كاملاً بإغلاق عينيك والاستماع. كلما أحسست بإيقاع، افتح عينيك لحظة. إذا كانت قطعة هناك — جيد. وإلا — اضبط.",
+              "الأغاني السريعة: اقطع كل 1–2 إيقاع. الأغاني البطيئة: كل 4–8 إيقاعات. البناء الدرامي: احتفظ بكليب خلال البناء، اقطع عند الذروة."
+            ],
+            en: [
+              "Beat-synced editing = every cut falls EXACTLY when the music has a drum hit or bass drop. Creates a hypnotic effect that makes videos addictive.",
+              "Step 1: choose your music first. Before adding clips, add your music track to the timeline. Listen through once completely.",
+              "Step 2: mark the beats. In CapCut, play audio and tap Beats to auto-detect — adds markers. Otherwise: play audio and tap screen on each beat.",
+              "Step 3: trim clips to match: place your clips and trim each one to end exactly where a beat marker falls.",
+              "Step 4: verify. Play the whole video while CLOSING YOUR EYES and listening. Every time you feel a beat, briefly open your eyes. If there's a cut there — good. If not — adjust.",
+              "Fast songs: cut every 1–2 beats. Slow songs: every 4–8 beats. Dramatic build-ups: hold a clip through the build, cut at the peak."
+            ]
+          },
+          method: {
+            fr: "Prenez n'importe quelle piste musicale et filmez 30 clips aléatoires (2–3 secondes chacun) de n'importe quoi. Faites UNIQUEMENT du montage synchronisé — n'essayez pas de raconter une histoire. Concentrez-vous juste sur faire tomber chaque coupure sur un temps. Regardez le résultat. Même du contenu aléatoire semble impressionnant avec une synchronisation parfaite.",
+            ar: "خذ أي مقطوعة موسيقية وصوّر 30 كليباً عشوائياً (2–3 ثوانٍ كل واحد) من أي شيء. افعل فقط مونتاجاً متزامناً — لا تحاول سرد قصة. ركّز فقط على جعل كل قطعة تقع على إيقاع. شاهد النتيجة. حتى المحتوى العشوائي يبدو مذهلاً مع تزامن مثالي.",
+            en: "Take any music track and film 30 random clips (2–3 seconds each) of anything. Do ONLY beat-synced editing — don't try to tell a story. Focus only on making every single cut land on a beat. Watch the result. Even random content looks impressive with perfect beat-sync."
+          },
+          exercise: {
+            fr: "Créez un montage synchronisé de 45 secondes avec des images de votre ville ou quartier (filmez dehors 30 minutes — minimum 20 clips). Utilisez une chanson tendance. Chaque coupure doit tomber sur un temps. Exportez et partagez sur votre compte test.",
+            ar: "أنشئ مونتاجاً متزامناً مدته 45 ثانية باستخدام لقطات مدينتك أو حيّك (صوّر خارجاً 30 دقيقة — 20 كليباً على الأقل). استخدم أغنية رائجة. كل قطعة يجب أن تقع على إيقاع. صدّر وشارك على حسابك التجريبي.",
+            en: "Create a 45-second beat-synced montage using footage of your city or neighborhood (film outside 30 minutes — minimum 20 clips). Use a trending song. Every cut must land on a beat. Export and share to your test account."
+          },
+          tip: {
+            fr: "💡 La fonctionnalité Auto Beat Sync de CapCut (sous Audio → Beats) place automatiquement les coupures sur les temps de n'importe quelle chanson. Utilisez-la pour l'entraînement pour voir où tombent les temps, puis apprenez à le ressentir vous-même.",
+            ar: "💡 ميزة Auto Beat Sync في CapCut (تحت Audio → Beats) تضع القطع تلقائياً على إيقاعات أي أغنية. استخدمها للتدريب لترى أين تقع الإيقاعات، ثم تعلّم الإحساس بها بنفسك.",
+            en: "💡 CapCut's Auto Beat Sync feature (under Audio → Beats) automatically places cuts on beats of any song. Use it for training to see where beats fall, then learn to feel it yourself."
+          }
+        },
+        {
+          id: "video-b-3",
+          title: {
+            fr: "Étalonnage des Couleurs — Donnez un Look Cinématique",
+            ar: "تصحيح الألوان — أعطِ مظهراً سينمائياً",
+            en: "Color Grading — Make it Look Cinematic"
+          },
+          image: "https://images.unsplash.com/photo-1536240478700-b869ad10a2eb?w=800&q=80",
+          layout: "left",
+          steps: {
+            fr: [
+              "2 étapes: Correction (corriger les problèmes techniques) → Grade créatif (ajouter ambiance/style). Toujours corriger AVANT de grader.",
+              "Dans CapCut → Ajuster: Luminosité (négatif=plus sombre), Contraste (différence noirs/blancs), Saturation (négatif=plus gris, positif=plus vif), Netteté (augmentez légèrement, max 30).",
+              "Ordre de correction: 1. Luminosité (naturellement éclairé). 2. Contraste (noirs=noirs, blancs=blancs). 3. Saturation (niveau naturel). 4. Chaleur (plus chaud=jaune/orange, plus froid=bleu).",
+              "Grade cinématique teal-orange: Filtres CapCut → catégorie Cinématique. Ou manuellement: Chaleur +15, Saturation -10, Contraste +20. Pousse les tons chair vers l'orange, les ombres vers le teal.",
+              "Appliquer le même grade à plusieurs clips: ajustez un clip → 3 points → Copier le style → sélectionnez tous les autres clips → Coller le style.",
+              "LUTs: CapCut → Ajuster → Filtre → Importer LUT → choisissez un fichier .CUBE téléchargé. Cherchez 'free cinematic LUTs download' sur YouTube."
+            ],
+            ar: [
+              "مرحلتان: تصحيح (حل المشكلات التقنية) → grade إبداعي (إضافة مزاج/أسلوب). دايماً صحّح قبل الـgrade.",
+              "في CapCut → ضبط: السطوع (سالب=أداكن)، التباين (فرق الداكن/الفاتح)، التشبع (سالب=أكثر رمادية، موجب=أكثر حيوية)، الحدة (زيد قليلاً، أقصاه 30).",
+              "ترتيب التصحيح: 1. السطوع (يبدو مضاءً طبيعياً). 2. التباين (الداكن=داكن، الفاتح=فاتح). 3. التشبع (مستوى طبيعي). 4. الدفء (أدفأ=أصفر/برتقالي، أبرد=أزرق).",
+              "Grade السينمائي teal-orange: فلاتر CapCut → فئة السينمائي. أو يدوياً: دفء +15، تشبع -10، تباين +20. يدفع ألوان البشرة نحو البرتقالي والظلال نحو الـteal.",
+              "تطبيق نفس الـgrade على عدة كليبات: اضبط كليباً → 3 نقاط → نسخ الأسلوب → حدد كل الكليبات الأخرى → لصق الأسلوب.",
+              "LUTs: CapCut → ضبط → فلتر → استيراد LUT → اختار ملف .CUBE محمّلاً. ابحث عن 'free cinematic LUTs download' على YouTube."
+            ],
+            en: [
+              "2 stages: Correction (fix technical problems) → Creative grade (add mood/style). Always correct BEFORE grading.",
+              "In CapCut → Adjust: Brightness (negative=darker), Contrast (difference darks/lights), Saturation (negative=more grey, positive=more vivid), Sharpness (increase slightly, max 30).",
+              "Correction order: 1. Brightness (naturally lit). 2. Contrast (blacks=black, whites=white). 3. Saturation (natural level). 4. Warmth (warmer=yellow/orange, cooler=blue).",
+              "Cinematic teal-orange grade: CapCut Filters → Cinematic category. Or manually: Warmth +15, Saturation -10, Contrast +20. Pushes skin tones toward orange, shadows toward teal.",
+              "Apply same grade to multiple clips: adjust one clip → 3 dots → Copy Style → select all other clips → Paste Style.",
+              "LUTs: CapCut → Adjust → Filter → Import LUT → choose downloaded .CUBE file. Search 'free cinematic LUTs download' on YouTube."
+            ]
+          },
+          method: {
+            fr: "Filmez la même scène 3 fois dans des éclairages différents: lumière solaire directe, ombre et lumière artificielle intérieure. Importez les 3 dans CapCut. Corrigez-les jusqu'à ce qu'ils aient tous l'air d'avoir été filmés sous le même éclairage.",
+            ar: "صوّر نفس المشهد 3 مرات في إضاءات مختلفة: ضوء شمس مباشر، ظل وإضاءة اصطناعية داخلية. استورد الـ3 في CapCut. صحّحهم حتى يبدوا جميعاً كأنهم صُوِّروا تحت نفس الإضاءة.",
+            en: "Film the same scene 3 times in different lighting: direct sunlight, shade and indoor artificial light. Import all 3 into CapCut. Color correct them until they all look like they were filmed under the same lighting."
+          },
+          exercise: {
+            fr: "Prenez n'importe quelle vidéo brute que vous avez filmée. Appliquez 3 grades différents: 1) Look heure dorée chaude. 2) Look bleu froid dramatique. 3) Look film désaturé. Exportez les 3 séparément. Écrivez quel humeur crée chacun.",
+            ar: "خذ أي فيديو خام صوّرته. طبّق 3 grades مختلفة: 1) مظهر ساعة ذهبية دافئة. 2) مظهر أزرق بارد دراماتيكي. 3) مظهر فيلم باهت. صدّر الـ3 بشكل منفصل. اكتب أي مزاج يخلقه كل واحد.",
+            en: "Take any raw video you filmed. Apply 3 different grades: 1) Warm golden hour look. 2) Cold blue dramatic look. 3) Desaturated film look. Export all 3 separately. Write what mood each one creates."
+          },
+          tip: {
+            fr: "💡 Règle la plus importante: moins c'est plus. Un ajustement à 10% semble professionnel. Un ajustement à 50% semble débutant qui vient de découvrir les curseurs. Des changements subtils s'accumulent en un look raffiné.",
+            ar: "💡 أهم قاعدة: الأقل هو الأكثر. ضبط 10% يبدو احترافياً. ضبط 50% يبدو مبتدئاً اكتشف للتو الأشرطة. التغييرات الدقيقة تتراكم في مظهر مصقول.",
+            en: "💡 Most important rule: less is more. A 10% adjustment looks professional. A 50% adjustment looks like a beginner who just discovered sliders. Subtle changes accumulate into a refined look."
+          }
+        },
+        {
+          id: "video-b-4",
+          title: {
+            fr: "Corriger le Mauvais Audio et Ajouter du Sound Design",
+            ar: "تصحيح الصوت السيئ وإضافة تصميم صوتي",
+            en: "Fix Bad Audio and Add Professional Sound Design"
+          },
+          image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&q=80",
+          layout: "right",
+          steps: {
+            fr: [
+              "Correction audio gratuite la plus rapide: podcast.adobe.com/enhance — complètement gratuit. Uploadez n'importe quel fichier audio (jusqu'à 1h). L'IA supprime le bruit de fond et améliore la clarté vocale en 30 secondes.",
+              "Niveaux audio: Musique fond = -20 à -25 dB. Narration/dialogue = -12 à -6 dB. Effets sonores = -15 à -18 dB. Dans CapCut: piste audio → Volume → ajustez (baissez musique à 20–30%).",
+              "Ajouter effets sonores: freesound.org — compte gratuit, milliers d'effets. Cherchez: 'whoosh' (texte volant), 'click' (UI), 'crowd' (énergie). Téléchargez en MP3. Importez dans CapCut via Audio → Importer.",
+              "Technique J-Cut: démarrez l'audio de la scène suivante 0,5–1 seconde AVANT que la coupe visuelle arrive. Crée une transition fluide et naturelle.",
+              "Musique libre de droits (sûre pour usage client): YouTube Audio Library (gratuit), Pixabay Music (gratuit), Mixkit (gratuit). JAMAIS de chanson protégée sur le travail client.",
+              "Synchronisez audio à l'action: si quelqu'un applaudit, l'effet sonore de l'applaudissement doit tomber sur l'image exacte des mains qui se touchent. Cette synchronisation est ce qui rend les montages pros."
+            ],
+            ar: [
+              "أسرع تصحيح صوت مجاني: podcast.adobe.com/enhance — مجاني كامل. حمّل أي ملف صوتي (حتى ساعة). الذكاء الاصطناعي يزيل ضوضاء الخلفية ويحسّن وضوح الصوت في 30 ثانية.",
+              "مستويات الصوت: موسيقى الخلفية = -20 إلى -25 dB. السرد/الحوار = -12 إلى -6 dB. المؤثرات الصوتية = -15 إلى -18 dB. في CapCut: مسار صوتي → Volume → اضبط (خفّض الموسيقى لـ20–30%).",
+              "إضافة مؤثرات صوتية: freesound.org — حساب مجاني، آلاف المؤثرات. ابحث عن: 'whoosh' (نص يطير)، 'click' (UI)، 'crowd' (طاقة). حمّل كـMP3. استورد في CapCut عبر Audio → استيراد.",
+              "تقنية J-Cut: ابدأ صوت المشهد التالي 0.5–1 ثانية قبل وصول القطعة البصرية. ينشئ انتقالاً سلساً وطبيعياً.",
+              "موسيقى مجانية (آمنة لعمل العملاء): YouTube Audio Library (مجاني)، Pixabay Music (مجاني)، Mixkit (مجاني). أبدا لا تستخدم أغنية محمية في عمل العملاء.",
+              "تزامن الصوت مع الحركة: إذا صفّق شخص ما، يجب أن يقع مؤثر التصفيق على الإطار الدقيق لتلامس الأيدي. هذا التزامن هو ما يجعل المونتاج المحترف يبدو مصقولاً."
+            ],
+            en: [
+              "Fastest free audio fix: podcast.adobe.com/enhance — completely free. Upload any audio file (up to 1 hour). AI removes background noise and enhances voice clarity in 30 seconds.",
+              "Audio levels: Background music = -20 to -25 dB. Narration/dialogue = -12 to -6 dB. Sound effects = -15 to -18 dB. In CapCut: audio track → Volume → adjust (lower music to 20–30%).",
+              "Add sound effects: freesound.org — free account, thousands of effects. Search: 'whoosh' (flying text), 'click' (UI), 'crowd' (energy). Download as MP3. Import in CapCut via Audio → Import.",
+              "J-Cut technique: start audio of next scene 0.5–1 second BEFORE the visual cut arrives. Creates a smooth, natural transition.",
+              "Royalty-free music (safe for client work): YouTube Audio Library (free), Pixabay Music (free), Mixkit (free). NEVER use copyrighted songs on client work.",
+              "Sync audio to action: if someone claps, the clap sound effect must land on the exact frame of hands touching. This sync is what makes professional edits feel polished."
+            ]
+          },
+          method: {
+            fr: "Exercice vidéo silencieuse: trouvez n'importe quelle vidéo sans audio ou mettez une vidéo en sourdine. Ajoutez un sound design complet depuis zéro: ambiance de fond, effets sonores pour chaque action, musique. Utilisez uniquement des ressources gratuites.",
+            ar: "تمرين الفيديو الصامت: ابحث عن أي فيديو بدون صوت أو أكتم فيديو عندك. أضف تصميما صوتياً كاملاً من الصفر: أجواء خلفية، مؤثرات صوتية لكل حركة، موسيقى. استخدم فقط موارد مجانية.",
+            en: "Silent video exercise: find any video with no audio or mute a video you have. Add complete sound design from scratch: background ambience, sound effects for every action, music. Use only free resources."
+          },
+          exercise: {
+            fr: "Enregistrez 3 minutes de vous donnant un conseil sur n'importe quel sujet. Passez l'audio par Adobe Podcast Enhance. Réimportez dans CapCut. Ajoutez musique fond à -22dB. Ajoutez un effet sonore au début et à la fin. Comparez avant et après.",
+            ar: "سجّل 3 دقائق منك تعطي نصيحة عن أي موضوع. مرّر الصوت عبر Adobe Podcast Enhance. أعد الاستيراد في CapCut. زيد موسيقى خلفية على -22dB. زيد مؤثر صوتي في البداية والنهاية. قارن قبل وبعد.",
+            en: "Record 3 minutes of yourself giving a tip on any topic. Run audio through Adobe Podcast Enhance. Re-import into CapCut. Add background music at -22dB. Add a sound effect at start and end. Compare before and after."
+          },
+          tip: {
+            fr: "💡 Une vidéo avec un étalonnage parfait mais un mauvais audio semble amateure. Une vidéo avec des couleurs médiocres mais un audio cristallin semble professionnelle. Quand le temps est limité, corrigez l'audio en premier.",
+            ar: "💡 فيديو بتصحيح ألوان مثالي لكن صوت سيئ يبدو هاوياً. فيديو بألوان متوسطة لكن صوت كريستالي يبدو احترافياً. عندما يكون الوقت محدوداً، صحّح الصوت أولاً.",
+            en: "💡 A video with perfect color grading but bad audio feels amateur. A video with mediocre color but crystal-clear audio feels professional. When time is limited, fix audio first."
+          }
+        }
+      ]
+    },
+    {
+      name: { fr: "Intermédiaire", ar: "متوسط", en: "Intermediate" },
+      badge: "⚡",
+      duration: { fr: "Semaines 5–11", ar: "الأسابيع 5–11", en: "Weeks 5–11" },
+      goal: {
+        fr: "Apprendre DaVinci Resolve, se spécialiser dans un type de vidéo, construire votre portfolio",
+        ar: "تعلم DaVinci Resolve، التخصص في نوع فيديو، بناء بورتفوليوك",
+        en: "Learn DaVinci Resolve, specialize in a video type, build your portfolio"
+      },
+      lessons: [
+        {
+          id: "video-i-1",
+          title: {
+            fr: "DaVinci Resolve — L'Outil Professionnel Gratuit",
+            ar: "DaVinci Resolve — الأداة الاحترافية المجانية",
+            en: "DaVinci Resolve — Professional Free Tool"
+          },
+          image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&q=80",
+          layout: "top",
+          steps: {
+            fr: [
+              "Téléchargez DaVinci Resolve sur blackmagicdesign.com → sélectionnez DaVinci Resolve (gratuit), PAS DaVinci Resolve Studio (payant).",
+              "Première configuration: Fichier → Paramètres du projet → Fréquence d'images: 25fps. Résolution: 1920×1080.",
+              "5 pages en bas: Cut (montage rapide), Edit (timeline professionnelle — utilisez celle-ci), Fusion (motion graphics), Color (meilleur étalonnage au monde), Fairlight (audio pro). Commencez par Edit et Color seulement.",
+              "Importer: Fichier → Importer → Importer des médias → sélectionnez vos vidéos → apparaissent dans le Media Pool en haut à gauche. Faites glisser vers la Timeline.",
+              "Montage de base: Outil Lame (B) = couper. Outil Sélection (A) = déplacer. Supprimer clip = Retour arrière. Fermer l'espace: clic droit → Supprimer l'espace. Rogner: survolez le bord du clip jusqu'à l'icône de rognage → faites glisser.",
+              "Exporter: page Deliver. Présélection YouTube, ou Personnalisé (H.264, 1080p, 10 Mbps). Cliquez Ajouter à la file d'attente → Tout rendre."
+            ],
+            ar: [
+              "حمّل DaVinci Resolve من blackmagicdesign.com → اختار DaVinci Resolve (مجاني)، مش DaVinci Resolve Studio (مدفوع).",
+              "الإعداد الأول: ملف → إعدادات المشروع → معدل الإطارات: 25fps. الدقة: 1920×1080.",
+              "5 صفحات في الأسفل: Cut (مونتاج سريع)، Edit (جدول زمني احترافي — استخدم هذا)، Fusion (موشن جرافيك)، Color (أفضل تصحيح ألوان في العالم)، Fairlight (صوت احترافي). ابدأ بـ Edit وColor فقط.",
+              "الاستيراد: ملف → استيراد → استيراد وسائط → اختار فيديوهاتك → تظهر في Media Pool أعلى اليسار. اسحب للجدول الزمني.",
+              "المونتاج الأساسي: أداة الشفرة (B) = قطع. أداة التحديد (A) = تحريك. حذف كليب = Backspace. إغلاق الفراغ: انقر يمين → حذف الفراغ. القص: مرّر على حافة الكليب حتى أيقونة القص → اسحب.",
+              "التصدير: صفحة Deliver. إعداد مسبق YouTube، أو مخصص (H.264، 1080p، 10 Mbps). اضغط إضافة لقائمة الانتظار → تصيير الكل."
+            ],
+            en: [
+              "Download DaVinci Resolve from blackmagicdesign.com → select DaVinci Resolve (free), NOT DaVinci Resolve Studio (paid).",
+              "First setup: File → Project Settings → Frame Rate: 25fps. Resolution: 1920×1080.",
+              "5 pages at bottom: Cut (fast editing), Edit (professional timeline — use this), Fusion (motion graphics), Color (best color grading in the world), Fairlight (pro audio). Start with Edit and Color only.",
+              "Import: File → Import → Import Media → select your videos → appear in Media Pool top left. Drag to Timeline.",
+              "Basic editing: Blade tool (B) = cut. Selection tool (A) = move. Delete clip = Backspace. Close gap: right-click → Delete Gap. Trim: hover over clip edge until trim icon → drag.",
+              "Export: Deliver page. YouTube preset, or Custom (H.264, 1080p, 10 Mbps). Click Add to Render Queue → Render All."
+            ]
+          },
+          method: {
+            fr: "Importez n'importe quel métrage de 5 minutes dans DaVinci Resolve. Votre seule tâche: coupez chaque moment où il ne se passe rien d'intéressant. Si quelqu'un marche jusqu'à sa voiture, coupez à son arrivée. Si quelqu'un fait une pause de 3 secondes en parlant, coupez la pause.",
+            ar: "استورد أي لقطات مدتها 5 دقائق في DaVinci Resolve. مهمتك الوحيدة: اقطع كل لحظة لا يحدث فيها شيء مثير. إذا سار شخص لسيارته، اقطع لحظة وصوله. إذا توقف شخص 3 ثوانٍ أثناء الكلام، اقطع التوقف.",
+            en: "Import any 5-minute footage into DaVinci Resolve. Your only task: cut out every moment where nothing interesting is happening. If someone walks to their car, cut to when they arrive. If someone pauses 3 seconds while talking, cut the pause."
+          },
+          exercise: {
+            fr: "Montez une vidéo de voyage ou d'événement de 3 minutes dans DaVinci Resolve depuis des séquences brutes (trouvez du métrage gratuit sur pexels.com/videos). Doit inclure: coupes propres, musique libre de droits, 2 styles de texte différents, correction colorimétrique basique sur la page Color.",
+            ar: "عدّل فيديو سفر أو حدث مدته 3 دقائق في DaVinci Resolve من لقطات خام (ابحث عن لقطات مجانية على pexels.com/videos). يجب أن يتضمن: قطع نظيفة، موسيقى مجانية، أسلوبي نص مختلفين، تصحيح ألوان أساسي على صفحة Color.",
+            en: "Edit a 3-minute travel or event video in DaVinci Resolve from raw footage (find free footage on pexels.com/videos). Must include: clean cuts, royalty-free music, 2 different text styles, basic color correction on Color page."
+          },
+          tip: {
+            fr: "💡 Raccourci qui vous sauvera des heures: appuyez I pour marquer le point IN (où vous voulez qu'un clip commence) et O pour le point OUT dans le visualiseur — puis F9 pour l'ajouter automatiquement à votre timeline. C'est le flux de travail de montage professionnel.",
+            ar: "💡 اختصار سيوفّر لك ساعات: اضغط I لتحديد نقطة البداية (أين تريد بدء الكليب) و O لنقطة النهاية في العارض — ثم F9 لإضافته تلقائياً لجدولك الزمني. هذا سير عمل المونتاج الاحترافي.",
+            en: "💡 Shortcut that will save you hours: press I to mark the IN point (where you want clip to start) and O for OUT point in the viewer — then F9 to automatically add it to your timeline. This is the professional editing workflow."
+          }
+        },
+        {
+          id: "video-i-2",
+          title: {
+            fr: "Monter un Film de Mariage",
+            ar: "مونتاج فيلم زفاف",
+            en: "Edit a Wedding Highlight Film"
+          },
+          image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+          layout: "right",
+          steps: {
+            fr: [
+              "Le montage mariage est la niche vidéo locale la plus lucrative en Algérie (10 000–50 000 DZD par projet). Structure 4 minutes: Ouverture (0–30s): meilleur moment émotionnel. Préparatifs (30–60s): préparation et détails. Cérémonie (1:00–2:00): vœux, premier baiser, réactions. Célébration (2:00–3:30): première danse, famille, joie. Clôture (3:30–4:00): plan final calme et émotionnel.",
+              "Sélection musicale: 1 chanson pour tout ou 2 (1 plus lente pour cérémonie, 1 dynamique pour célébration). Sources: Artlist.io (payant, professionnel), ou cherchez 'royalty free wedding music' sur YouTube.",
+              "Étalonnage pour mariages: look chaud, doux et romantique. DaVinci Resolve page Color: réduisez légèrement les hautes lumières → ajoutez chaleur (vers orange dans les tons moyens) → réduisez saturation -15 à -25 → légère vignette.",
+              "Ralenti: filmez les moments importants à 60fps (paramètre slow motion téléphone). En montage, réglez ces clips à 50% vitesse. Moments clés: premier regard, échange des bagues, premier tour de danse, larmes de joie.",
+              "Le montage émotionnel: les grands films de mariage font pleurer. Ceci vient de: choisir des plans capturant des émotions genuines, laisser respirer les moments aux pics émotionnels, faire correspondre l'arc émotionnel de la musique à l'histoire visuelle.",
+              "Livraison: exportez en 4K si possible, 1080p minimum. Livrez via WeTransfer.com + clé USB. Exportez aussi un teaser Reel de 90 secondes pour Instagram — c'est votre marketing gratuit."
+            ],
+            ar: [
+              "مونتاج الزفاف هو النيش الفيديو المحلي الأكثر ربحاً في الجزائر (10,000–50,000 دج للمشروع). هيكل 4 دقائق: افتتاح (0–30 ث): أفضل لحظة عاطفية. التحضير (30–60 ث): التحضير والتفاصيل. الحفل (1:00–2:00): العهود، القبلة الأولى، ردود الأفعال. الاحتفال (2:00–3:30): الرقصة الأولى، العائلة، الفرح. الختام (3:30–4:00): لقطة نهائية هادئة وعاطفية.",
+              "اختيار الموسيقى: أغنية واحدة للكل أو 2 (أبطأ للحفل، أكثر حيوية للاحتفال). المصادر: Artlist.io (مدفوع، احترافي)، أو ابحث عن 'royalty free wedding music' على YouTube.",
+              "تصحيح الألوان للأعراس: مظهر دافئ وناعم ورومانسي. صفحة Color في DaVinci Resolve: قلّل الإضاءة العالية قليلاً → زيد الدفء (نحو البرتقالي في الأوسط) → قلّل التشبع -15 إلى -25 → vignette خفيفة.",
+              "التصوير البطيء: صوّر اللحظات المهمة بـ60fps (إعداد سلو موشن الهاتف). في المونتاج، اضبط هذه الكليبات على 50% سرعة. اللحظات الرئيسية: أول نظرة، تبادل الخواتم، أول لفة رقص، دموع الفرح.",
+              "المونتاج العاطفي: أفلام الزفاف الرائعة تُبكي. هذا يأتي من: اختيار لقطات تلتقط مشاعر حقيقية، ترك اللحظات تتنفس عند الذرى العاطفية، مطابقة القوس العاطفي للموسيقى مع القصة البصرية.",
+              "التسليم: صدّر بـ4K إن أمكن، 1080p كحد أدنى. سلّم عبر WeTransfer.com + مفتاح USB. صدّر أيضاً teaser Reel مدته 90 ثانية لـ Instagram — هذا تسويقك المجاني."
+            ],
+            en: [
+              "Wedding editing is the most lucrative local video niche in Algeria (10,000–50,000 DZD per project). 4-minute structure: Opening (0–30s): best emotional moment. Getting ready (30–60s): preparation and details. Ceremony (1:00–2:00): vows, first kiss, reactions. Celebration (2:00–3:30): first dance, family, joy. Closing (3:30–4:00): quiet emotional final shot.",
+              "Music selection: 1 song for everything or 2 (slower for ceremony, upbeat for celebration). Sources: Artlist.io (paid, professional), or search 'royalty free wedding music' on YouTube.",
+              "Color grading for weddings: warm, soft and romantic look. DaVinci Resolve Color page: reduce highlights slightly → add warmth (toward orange in midtones) → reduce saturation -15 to -25 → slight vignette.",
+              "Slow motion: film important moments at 60fps (phone slow motion setting). In editing, set these clips to 50% speed. Key moments: first look, ring exchange, first dance spin, happy tears.",
+              "The emotional edit: great wedding films make people cry. This comes from: choosing shots capturing genuine emotions, letting moments breathe at emotional peaks, matching music's emotional arc to visual story.",
+              "Delivery: export at 4K if possible, 1080p minimum. Deliver via WeTransfer.com + USB drive. Also export a 90-second Reel teaser for Instagram — this is your free marketing."
+            ]
+          },
+          method: {
+            fr: "Trouvez du métrage de mariage gratuit en ligne (cherchez 'free wedding stock footage' sur Pexels ou Pixabay). Montez un film complet de 4 minutes en suivant la structure ci-dessus. C'est votre pièce de portfolio de montage mariage même sans métrage de vrai client.",
+            ar: "ابحث عن لقطات زفاف مجانية أونلاين (ابحث عن 'free wedding stock footage' على Pexels أو Pixabay). عدّل فيلماً كاملاً مدته 4 دقائق باتباع الهيكل أعلاه. هذه قطعة بورتفوليو مونتاج زفافك حتى بدون لقطات زبون حقيقي.",
+            en: "Find free wedding footage online (search 'free wedding stock footage' on Pexels or Pixabay). Edit a complete 4-minute film following the structure above. This is your wedding editing portfolio piece even without real client footage."
+          },
+          exercise: {
+            fr: "Montez un film de mariage complet de 4 minutes depuis des images stock gratuites. Gradez avec un look romantique et chaud. Créez une version teaser Reel de 60 secondes. Rédigez une liste de prix pour votre service de montage vidéo mariage avec 3 forfaits.",
+            ar: "عدّل فيلم زفاف كامل مدته 4 دقائق من صور stock مجانية. صحح الألوان بمظهر رومانسي دافئ. أنشئ نسخة teaser Reel مدتها 60 ثانية. اكتب قائمة أسعار لخدمة مونتاج فيديو زفافك مع 3 باقات.",
+            en: "Edit a complete 4-minute wedding film from free stock footage. Grade with a warm romantic look. Create a 60-second Reel teaser version. Write a price list for your wedding video editing service with 3 packages."
+          },
+          tip: {
+            fr: "💡 Approchez les photographes de mariage, pas les mariées directement. Les photographes couvrent chaque mariage et ont besoin d'un monteur de confiance. Une bonne relation avec un photographe = 10–20 mariages par an. Offrez-leur une commission de référral de 1 000–2 000 DZD par client.",
+            ar: "💡 تواصل مع مصوري الزفاف، ليس العرائس مباشرة. المصورون يغطون كل زفاف ويحتاجون لمحرر موثوق. علاقة جيدة مع مصور = 10–20 زفاف في السنة. اعرض عليهم عمولة إحالة 1,000–2,000 دج لكل زبون.",
+            en: "💡 Approach wedding photographers, not brides directly. Photographers cover every wedding and need a trusted editor. One good relationship with a photographer = 10–20 weddings per year. Offer them a referral commission of 1,000–2,000 DZD per client."
+          }
+        },
+        {
+          id: "video-i-3",
+          title: {
+            fr: "Monter des Vidéos YouTube qui Retiennent l'Attention",
+            ar: "مونتاج فيديوهات YouTube تحافظ على الانتباه",
+            en: "Edit YouTube Videos That Hold Attention"
+          },
+          image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+          layout: "left",
+          steps: {
+            fr: [
+              "Règle de rétention: si 30% de l'audience abandonne dans les 30 premières secondes — la vidéo échouera. Votre SEUL objectif dans les 30 premières secondes: faire croire au spectateur que cette vidéo vaut la peine d'être regardée jusqu'à la fin.",
+              "Technique d'interruption de pattern: toutes les 60–90 secondes, ajoutez un changement visuel. Options: zoom sur le visage du locuteur, couper vers la B-roll, animation texte, changer la musique, effet sonore, couper vers un diagramme.",
+              "Jump cuts: coupez chaque pause, mot de remplissage (um, euh, donc) et silence de plus de 0,3 seconde. Dans DaVinci Resolve: outil Lame pour couper chaque pause. Semble extrême mais c'est comment est monté le contenu des grands YouTubeurs.",
+              "B-roll par-dessus la voix: quand le locuteur dit 'je suis allé au marché', coupez vers des images de marché. La caméra face-cam ne devrait jamais durer plus de 20–30 secondes sans B-roll. Sources: Pexels.com/videos, Pixabay.com/videos (gratuits).",
+              "Écran de fin: dans les 20 dernières secondes: bouton abonnement, carte vidéo suivante, carte vidéo recommandée. Ajoutez-les dans YouTube Studio APRÈS l'upload.",
+              "Chapitres: dans la description YouTube ajoutez horodatages: '0:00 Introduction, 1:30 Étape 1, 3:45 Étape 2'. YouTube les montre comme chapitres sur la barre de progression."
+            ],
+            ar: [
+              "قاعدة الاحتفاظ: إذا تخلّى 30% من الجمهور في أول 30 ثانية — سيفشل الفيديو. هدفك الوحيد في أول 30 ثانية: إقناع المشاهد بأن هذا الفيديو يستحق المشاهدة حتى النهاية.",
+              "تقنية انقطاع النمط: كل 60–90 ثانية، أضف تغييراً بصرياً. الخيارات: تكبير على وجه المتحدث، قطع لـB-roll، رسوم متحركة نصية، تغيير الموسيقى، مؤثر صوتي، قطع لمخطط.",
+              "Jump cuts: اقطع كل توقف، كلمة حشو (um، euh، donc) وصمت أطول من 0.3 ثانية. في DaVinci Resolve: أداة الشفرة لقطع كل توقف. يبدو متطرفاً لكن هكذا يُعدّل محتوى كبار YouTubers.",
+              "B-roll فوق الصوت: عندما يقول المتحدث 'ذهبت للسوق'، اقطع لصور السوق. الكاميرا المواجهة لا يجب أن تستمر أكثر من 20–30 ثانية بدون B-roll. المصادر: Pexels.com/videos، Pixabay.com/videos (مجانية).",
+              "شاشة النهاية: في آخر 20 ثانية: زر اشتراك، بطاقة الفيديو التالي، بطاقة الفيديو الموصى به. أضفها في YouTube Studio بعد الرفع.",
+              "الفصول: في وصف YouTube أضف طوابع الوقت: '0:00 مقدمة، 1:30 الخطوة 1، 3:45 الخطوة 2'. YouTube يعرضها كفصول على شريط التقدم."
+            ],
+            en: [
+              "Retention rule: if 30% of audience drops off in first 30 seconds — the video will fail. Your ONLY goal in first 30 seconds: make the viewer believe this video is worth watching until the end.",
+              "Pattern interrupt technique: every 60–90 seconds, add a visual change. Options: zoom on speaker's face, cut to B-roll, text animation, change music, sound effect, cut to a diagram.",
+              "Jump cuts: cut every pause, filler word (um, uh, so) and silence longer than 0.3 seconds. In DaVinci Resolve: Blade tool to cut each pause. Seems extreme but this is how every major YouTuber's content is edited.",
+              "B-roll over voice: when speaker says 'I went to the market', cut to market footage. Face-cam should never last more than 20–30 seconds without B-roll. Sources: Pexels.com/videos, Pixabay.com/videos (free).",
+              "End screen: in last 20 seconds: subscribe button, next video card, recommended video card. Add them in YouTube Studio AFTER upload.",
+              "Chapters: in YouTube description add timestamps: '0:00 Introduction, 1:30 Step 1, 3:45 Step 2'. YouTube shows these as chapters on progress bar."
+            ]
+          },
+          method: {
+            fr: "Regardez votre propre contenu de manière critique: chargez n'importe quelle vidéo sur YouTube. Ouvrez Analytics → Rétention de l'audience. Vous verrez un graphique montrant à quelle seconde les spectateurs abandonnent. Chaque chute = quelque chose s'est mal passé à cet instant.",
+            ar: "شاهد محتواك الخاص بعين ناقدة: حمّل أي فيديو على YouTube. افتح Analytics → الاحتفاظ بالجمهور. ستجد رسماً بيانياً يُظهر عند أي ثانية يتخلى المشاهدون. كل انخفاض = حدث خطأ ما في تلك اللحظة.",
+            en: "Watch your own content critically: load any video on YouTube. Open Analytics → Audience Retention. You'll see a graph showing at what second viewers drop off. Every drop = something went wrong at that moment."
+          },
+          exercise: {
+            fr: "Trouvez n'importe quelle vidéo éducative de 10 minutes sur YouTube. Montez-la À 6 minutes: supprimez tous les mots de remplissage, pauses inutiles, sections répétitives dans DaVinci Resolve. Ajoutez ensuite: 3 animations de texte, 2 B-rolls, 1 carte de titre de chapitre.",
+            ar: "ابحث عن أي فيديو تعليمي مدته 10 دقائق على YouTube. عدّله ليصبح 6 دقائق: احذف كل الكلمات الحشو، التوقفات غير الضرورية، الأقسام المتكررة في DaVinci Resolve. ثم أضف: 3 رسوم متحركة نصية، 2 B-rolls، 1 بطاقة عنوان فصل.",
+            en: "Find any 10-minute educational video on YouTube. Edit it DOWN to 6 minutes: remove all filler words, unnecessary pauses, repetitive sections in DaVinci Resolve. Then add: 3 text animations, 2 B-rolls, 1 chapter title card."
+          },
+          tip: {
+            fr: "💡 Les monteurs YouTube les mieux payés ne sont pas ceux qui ajoutent le plus d'effets — ce sont ceux qui rendent le contenu sans effort et gardent les spectateurs à regarder. Le montage invisible est la compétence la plus difficile et la plus précieuse.",
+            ar: "💡 محررو YouTube الأعلى أجراً ليسوا من يضيفون أكثر المؤثرات — بل من يجعلون المحتوى يبدو سهلاً ويبقون المشاهدين يشاهدون. المونتاج غير المرئي هو المهارة الأصعب والأكثر قيمة.",
+            en: "💡 The highest-paid YouTube editors are not those who add the most effects — they're those who make content feel effortless and keep viewers watching. Invisible editing is the hardest and most valuable skill."
+          }
+        }
+      ]
+    },
+    {
+      name: { fr: "Avancé", ar: "متقدم", en: "Advanced" },
+      badge: "🔥",
+      duration: { fr: "Semaines 12–20", ar: "الأسابيع 12–20", en: "Weeks 12–20" },
+      goal: {
+        fr: "Maîtriser la page Color de DaVinci Resolve, bases VFX, tarifs premium",
+        ar: "إتقان صفحة Color في DaVinci Resolve، أساسيات VFX، أسعار premium",
+        en: "Master DaVinci Resolve Color page, VFX basics, command premium rates"
+      },
+      lessons: [
+        {
+          id: "video-a-1",
+          title: {
+            fr: "Maîtriser l'Étalonnage des Couleurs dans DaVinci Resolve",
+            ar: "إتقان تصحيح الألوان في DaVinci Resolve",
+            en: "Master Color Grading in DaVinci Resolve"
+          },
+          image: "https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=800&q=80",
+          layout: "top",
+          steps: {
+            fr: [
+              "Page Color dans DaVinci Resolve. Graphe de nœuds à droite: chaque nœud = ajustement de couleur séparable. Nœud 1 = Correction colorimétrique. Nœud 2 = Grade créatif. Nœud 3 = Ajustements spécifiques.",
+              "3 oscilloscopes (Espace de travail → Oscilloscopes): Forme d'onde (gauche-droite=écran, haut-bas=luminosité — bas=0, haut=100 pour image bien exposée). Parade (sépare R, G, B — tous 3 équilibrés = balance des blancs neutre). Vectorscope (saturation et teinte — ligne des tons chair).",
+              "Roues primaires: Lift (ombres), Gamma (tons moyens), Gain (hautes lumières). Faites glisser vers une couleur pour teinter cette plage. Pour teal-orange cinématique: Lift légèrement vers teal/cyan, Gain légèrement vers orange chaud.",
+              "Outil Qualificateur: pipette dans la page Color. Cliquez sur n'importe quelle couleur dans votre image (ciel, peau). DaVinci isole SEULEMENT cette couleur pour l'ajustement.",
+              "Correspondance des plans: clic droit sur un clip bien gradé → Capturer une image fixe. Allez sur un clip mal assorti → clic droit dans le panneau Images fixes → Appliquer le grade. Affinez manuellement.",
+              "Flux de travail LUT: clic droit sur un nœud → LUTs → parcourez et appliquez. Appliquez toujours LUT sur son propre nœud, puis réduisez l'opacité du nœud à 30–70%."
+            ],
+            ar: [
+              "صفحة Color في DaVinci Resolve. رسم العقد على اليمين: كل عقدة = ضبط ألوان منفصل. العقدة 1 = تصحيح الألوان. العقدة 2 = Grade إبداعي. العقدة 3 = ضبط محدد.",
+              "3 أجهزة قياس (مساحة العمل → أجهزة القياس): شكل الموجة (يسار-يمين=الشاشة، أعلى-أسفل=السطوع — الأسفل=0، الأعلى=100 للصورة المكشوفة جيداً). Parade (يفصل R, G, B — الـ3 متوازنة = توازن أبيض محايد). Vectorscope (التشبع واللون — خط ألوان البشرة).",
+              "العجلات الأساسية: Lift (الظلال)، Gamma (الأوساط)، Gain (الإضاءات). اسحب نحو لون لتلوين تلك النطاق. لـteal-orange السينمائي: Lift قليلاً نحو teal/cyan، Gain قليلاً نحو برتقالي دافئ.",
+              "أداة المؤهل: القطّارة في صفحة Color. اضغط على أي لون في صورتك (السماء، البشرة). DaVinci يعزل هذا اللون فقط للضبط.",
+              "مطابقة اللقطات: انقر يمين على كليب مُدرَج جيداً → التقاط صورة ثابتة. اذهب لكليب غير متطابق → انقر يمين في لوحة الصور الثابتة → تطبيق الـgrade. اضبط يدوياً.",
+              "سير عمل LUT: انقر يمين على عقدة → LUTs → تصفّح وطبّق. دايماً طبّق LUT على عقدتها الخاصة، ثم قلّل شفافية العقدة لـ30–70%."
+            ],
+            en: [
+              "Color page in DaVinci Resolve. Node graph on right: each node = separate stackable color adjustment. Node 1 = Color Correction. Node 2 = Creative Grade. Node 3 = Specific adjustments.",
+              "3 scopes (Workspace → Scopes): Waveform (left-right=screen, up-down=brightness — bottom=0, top=100 for well-exposed image). Parade (splits R, G, B — all 3 balanced = neutral white balance). Vectorscope (saturation and hue — skin tone indicator line).",
+              "Primary Wheels: Lift (shadows), Gamma (midtones), Gain (highlights). Drag toward a color to tint that range. For cinematic teal-orange: Lift slightly toward teal/cyan, Gain slightly toward warm orange.",
+              "Qualifier tool: eyedropper in Color page. Click on any color in your image (sky, skin). DaVinci isolates ONLY that color for adjustment.",
+              "Matching shots: right-click on well-graded clip → Grab Still. Go to poorly matched clip → right-click in Stills panel → Apply Grade. Fine-tune manually.",
+              "LUT workflow: right-click on a node → LUTs → browse and apply. Always apply LUT on its own node, then reduce node opacity to 30–70%."
+            ]
+          },
+          method: {
+            fr: "Gradez le même clip de 2 minutes de 5 façons différentes: 1) Après-midi dorée chaude. 2) Thriller clinique froid. 3) Film vintage délavé. 4) Action à fort contraste. 5) Romance douce. Exportez les 5. Sauvegardez ces grades comme Power Grades dans DaVinci.",
+            ar: "صحّح نفس الكليب مدته دقيقتان بـ5 طرق مختلفة: 1) بعد ظهر ذهبي دافئ. 2) إثارة سريرية باردة. 3) فيلم قديم باهت. 4) أكشن بتباين عالٍ. 5) رومانسية ناعمة. صدّر الـ5. احفظ هذه الـgrades كـPower Grades في DaVinci.",
+            en: "Grade the same 2-minute clip 5 different ways: 1) Warm golden afternoon. 2) Cold clinical thriller. 3) Faded vintage film. 4) High contrast action. 5) Soft romance. Export all 5. Save these grades as Power Grades in DaVinci."
+          },
+          exercise: {
+            fr: "Téléchargez 3 clips différents de Pexels (scène extérieure, portrait intérieur, scène nocturne). Gradez les 3 pour qu'ils aient l'air d'appartenir au même film — température de couleur, contraste et ambiance cohérents. Montrez avant et après pour chaque clip.",
+            ar: "حمّل 3 كليبات مختلفة من Pexels (مشهد خارجي، بورتريه داخلي، مشهد ليلي). صحّح ألوان الـ3 ليبدوا كأنهم ينتمون لنفس الفيلم — درجة حرارة لون متسقة، تباين، مزاج. أظهر قبل وبعد لكل كليب.",
+            en: "Download 3 different clips from Pexels (outdoor scene, indoor portrait, night scene). Grade all 3 so they look like they belong to the same film — consistent color temperature, contrast and mood. Show before and after for each clip."
+          },
+          tip: {
+            fr: "💡 Les coloristes ne devinent pas — ils utilisent des oscilloscopes. Avant de toucher QUOI QUE CE SOIT, regardez la forme d'onde et corrigez d'abord l'exposition technique. Un grade créatif sur une exposition techniquement mauvaise sera toujours mauvais.",
+            ar: "💡 مصححو الألوان لا يخمنون — يستخدمون أجهزة القياس. قبل لمس أي شيء، انظر لشكل الموجة وصحّح الكشف التقني أولاً. grade إبداعي على كشف تقني سيئ سيبدو دائماً سيئاً.",
+            en: "💡 Colorists don't guess — they use scopes. Before touching ANYTHING, look at the waveform and fix the technical exposure first. A creative grade on a technically wrong exposure will always look bad."
+          }
+        },
+        {
+          id: "video-a-2",
+          title: {
+            fr: "Fixer Vos Tarifs et Trouver des Clients Vidéo Bien Payés",
+            ar: "تحديد أسعارك وإيجاد زبائن فيديو يدفعوا جيداً",
+            en: "Set Your Rates and Get High-Paying Video Clients"
+          },
+          image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+          layout: "left",
+          steps: {
+            fr: [
+              "Tarification montage vidéo Algérie: Reel 30s = 3–8K. Vidéo YouTube 3–5min = 8–20K. Highlight mariage 4min = 15–40K. Montage journée mariage complète = 30–80K. Pub commerciale = 30–120K. Forfait Reels mensuel (8/mois) = 20–50K. (DZD)",
+              "Construire un showreel: vidéo de 60–90 secondes de vos MEILLEURS travaux. Structure: commencez par le plan le plus impressionnant (3 premières secondes doivent être époustouflantes), incluez de la variété, montrez la gamme de grades et styles, terminez avec votre nom et contact.",
+              "Où trouver des clients en Algérie: 1. Photographes de mariage sur Instagram. 2. YouTubeurs algériens avec 5 000–50 000 abonnés. 3. Marques lançant des pubs réseaux sociaux. 4. Sociétés événementielles. 5. Clients internationaux via Fiverr payés en USD.",
+              "Formule de démarchage à froid: 'Bonjour [Nom], je suis monteur vidéo spécialisé dans [films mariage / création de contenu]. J'ai regardé votre page et j'ai des idées pour améliorer vos vidéos. Voici un exemple de mon travail: [lien showreel]. Je serais ravi de vous offrir un premier montage test gratuitement. Intéressé(e)?'",
+              "L'offre de montage test gratuit: proposez de monter 1 courte vidéo gratuitement pour tout prospect sérieux. Coût pour vous: 3–4 heures. Retour potentiel: un client qui vous envoie 15 mariages par an.",
+              "Upselling: chaque projet de montage est une opportunité. Montage mariage → offrez un teaser Reel. Montage YouTube → offrez un design de miniature (3 000–5 000 DZD en plus). Montage commercial → offrez une version 15 secondes pour stories (2 000 DZD en plus)."
+            ],
+            ar: [
+              "تسعير مونتاج الفيديو الجزائر: Reel 30 ث = 3–8K. فيديو YouTube 3–5 د = 8–20K. هايلايت زفاف 4 د = 15–40K. مونتاج يوم زفاف كامل = 30–80K. إعلان تجاري = 30–120K. باقة Reels شهرية (8/شهر) = 20–50K. (دج)",
+              "بناء Showreel: فيديو 60–90 ثانية من أفضل أعمالك. الهيكل: ابدأ بأكثر لقطة مذهلة (أول 3 ثوانٍ يجب أن تبهر)، أدرج التنوع، أظهر نطاق الـgrades والأساليب، اختم باسمك وتواصلك.",
+              "أين تجد زبائن في الجزائر: 1. مصورو الزفاف على Instagram. 2. YouTubers جزائريون بـ5,000–50,000 متابع. 3. علامات تطلق إعلانات سوشيال ميديا. 4. شركات الفعاليات. 5. زبائن دوليون عبر Fiverr يُدفَع بالدولار.",
+              "معادلة التواصل البارد: 'Bonjour [الاسم]، je suis monteur vidéo spécialisé dans [films mariage / création de contenu]. J'ai regardé votre page et j'ai des idées. Voici mon travail: [رابط showreel]. Je serais ravi de vous offrir un premier montage test gratuitement. Intéressé(e)?'",
+              "عرض الاختبار المجاني: اقترح مونتاج فيديو قصير واحد مجانا لأي عميل محتمل جاد. التكلفة عليك: 3–4 ساعات. العائد المحتمل: زبون يرسل لك 15 زفاف في السنة.",
+              "البيع الإضافي: كل مشروع مونتاج هو فرصة. مونتاج زفاف → اقترح teaser Reel. مونتاج YouTube → اقترح تصميم thumbnail (3,000–5,000 دج إضافية). مونتاج تجاري → اقترح نسخة 15 ثانية للستوريات (2,000 دج إضافية)."
+            ],
+            en: [
+              "Video editing pricing Algeria: 30s Reel = 3–8K. YouTube video 3–5min = 8–20K. Wedding highlight 4min = 15–40K. Full wedding day edit = 30–80K. Commercial ad = 30–120K. Monthly Reels package (8/month) = 20–50K. (DZD)",
+              "Build a showreel: 60–90 second video of your BEST work. Structure: start with most impressive shot (first 3 seconds must be stunning), include variety, show range of grades and styles, end with your name and contact.",
+              "Where to find clients in Algeria: 1. Wedding photographers on Instagram. 2. Algerian YouTubers with 5,000–50,000 subscribers. 3. Brands running social media ads. 4. Event companies. 5. International clients via Fiverr paid in USD.",
+              "Cold outreach formula: 'Bonjour [Name], je suis monteur vidéo spécialisé dans [wedding films / content creation]. J'ai regardé votre page et j'ai des idées pour améliorer vos vidéos. Voici mon travail: [showreel link]. Je serais ravi de vous offrir un premier montage test gratuitement. Intéressé(e)?'",
+              "Free test edit offer: offer to edit 1 short video free for any serious prospect. Cost to you: 3–4 hours. Potential return: a client who sends you 15 weddings per year.",
+              "Upselling: every editing project is an opportunity. Wedding edit → offer Reel teaser. YouTube edit → offer thumbnail design (3,000–5,000 DZD extra). Commercial edit → offer 15-second stories version (2,000 DZD extra)."
+            ]
+          },
+          method: {
+            fr: "Trouvez 10 photographes de mariage sur Instagram dans votre ville. Regardez leurs profils — la plupart ne proposeront pas de vidéo. C'est votre ouverture. Envoyez un DM simple à 5 d'entre eux: 'Salam, votre travail est vraiment beau. Vous collaborez avec des monteurs vidéo?' Quand ils répondent, ENSUITE présentez ce que vous offrez.",
+            ar: "ابحث عن 10 مصوري زفاف على Instagram في مدينتك. انظر لملفاتهم — أغلبهم لن يقدموا فيديو. هذه فرصتك. أرسل DM بسيطاً لـ5 منهم: 'سلام، شغلك جميل جداً. تتعاون مع محرري فيديو؟' عندما يردون، حينها قدّم ما تعرضه.",
+            en: "Find 10 wedding photographers on Instagram in your city. Look at their profiles — most won't offer video. That's your opening. Send a simple DM to 5 of them: 'Salam, your work is really beautiful. Do you collaborate with video editors?' When they respond, THEN present what you offer."
+          },
+          exercise: {
+            fr: "Créez votre showreel de montage vidéo (60–90 secondes): compilez vos meilleurs clips de tous les exercices de ce cours. Ajoutez des overlays de texte montrant le type de projet et votre nom. Ajoutez de la musique énergique. Exportez en 1080p. C'est le premier lien que vous partagez avec chaque client potentiel.",
+            ar: "أنشئ showreel مونتاجك الفيديو (60–90 ثانية): اجمع أفضل كليباتك من جميع تمارين هذا الكورس. أضف overlays نصية تظهر نوع المشروع واسمك. أضف موسيقى نشيطة. صدّر بـ1080p. هذا أول رابط تشاركه مع كل عميل محتمل.",
+            en: "Create your video editing showreel (60–90 seconds): compile your best clips from all exercises in this course. Add text overlays showing project type and your name. Add energetic music. Export at 1080p. This is the first link you share with every potential client."
+          },
+          tip: {
+            fr: "💡 Facturez par projet, pas par heure pour le montage vidéo. Les clients n'ont pas besoin de savoir que ça vous a pris 6 heures. Ils paient pour le résultat. Plus vous devenez rapide, plus votre taux horaire effectif augmente sans changer votre prix par projet.",
+            ar: "💡 احشد بالمشروع، ليس بالساعة للمونتاج. الزبائن لا يحتاجون معرفة أن المهمة استغرقت 6 ساعات. يدفعون مقابل النتيجة. كلما أصبحت أسرع، زاد معدل ساعتك الفعلي دون تغيير سعر المشروع.",
+            en: "💡 Price per project, not per hour for video editing. Clients don't need to know it took 6 hours. They pay for the result. The faster you get, the higher your effective hourly rate without changing your project price."
+          }
+        }
+      ]
+    },
+    {
+      name: { fr: "Maître", ar: "محترف", en: "Master" },
+      badge: "👑",
+      duration: { fr: "Mois 6+", ar: "الشهر 6+", en: "Month 6+" },
+      goal: {
+        fr: "Produire des publicités commerciales, construire une société de production",
+        ar: "إنتاج إعلانات تجارية، بناء شركة إنتاج",
+        en: "Produce commercial videos, build a production company"
+      },
+      lessons: [
+        {
+          id: "video-m-1",
+          title: {
+            fr: "Produire et Monter une Publicité Commerciale",
+            ar: "إنتاج ومونتاج إعلان تجاري",
+            en: "Produce and Edit a Commercial Advertisement"
+          },
+          image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+          layout: "top",
+          steps: {
+            fr: [
+              "Structure pub 30–60 secondes: 0–5s: Problème ou tension (montrez la douleur). 5–20s: Introduction de la solution (montrez le produit). 20–28s: Transformation et bénéfice (montrez la personne après). 28–30s: Appel à l'action (logo + slogan + où acheter).",
+              "Pré-production: Brief client → script → storyboard (dessinez chaque plan sur papier) → liste de plans → repérage → talent → liste accessoires → planning journée tournage.",
+              "Coordination sur le plateau: dirigez le talent — dites-leur exactement quoi faire, quoi ressentir. Minimum 3 prises de chaque plan. Variez les angles: large, moyen, gros plan. Ne quittez jamais le lieu sans tous les plans de votre liste.",
+              "Ordre post-production: montage image (montage brut) → sound design (voix off, musique, effets) → étalonnage (correspondance aux couleurs de la marque) → graphiques (révélations logo, titres, carte de fin) → révision finale avec client → export en plusieurs formats.",
+              "Enregistrement voix off: une voix off professionnelle en darija algérien ou français augmente considérablement la conversion. Trouvez des artistes voix off dans les groupes Facebook (cherchez 'voix off algérie') ou enregistrez vous-même dans une pièce calme, puis améliorez avec Adobe Podcast.",
+              "Tarification pub: commercial réseaux sociaux 30s (tournage + montage) = 40–120K. Pub TV = 150–500K. Montage uniquement (métrage fourni par client) = divisez ces prix par 3. (DZD)"
+            ],
+            ar: [
+              "هيكل الإعلان 30–60 ثانية: 0–5 ث: مشكلة أو توتر (أظهر الألم). 5–20 ث: تقديم الحل (أظهر المنتج). 20–28 ث: التحول والفائدة (أظهر الشخص بعد ذلك). 28–30 ث: دعوة للعمل (شعار + شعار الشركة + أين تشتري).",
+              "ما قبل الإنتاج: بريف الزبون → سكريبت → storyboard (ارسم كل لقطة على الورق) → قائمة اللقطات → استكشاف المواقع → الممثلون → قائمة الإكسسوار → جدول يوم التصوير.",
+              "التنسيق في الموقع: وجه الممثلين — أخبرهم بالضبط ماذا يفعلون، كيف يشعرون. 3 تسجيلات على الأقل لكل لقطة. تنويع الزوايا: واسع، متوسط، مقرّب. لا تغادر الموقع أبداً بدون كل لقطات قائمتك.",
+              "ترتيب ما بعد الإنتاج: مونتاج الصورة (مونتاج خشن) → تصميم صوتي (صوت تعليقي، موسيقى، مؤثرات) → تصحيح ألوان (مطابقة ألوان العلامة) → جرافيك (كشف شعار، عناوين، بطاقة نهاية) → مراجعة نهائية مع الزبون → تصدير بصيغ متعددة.",
+              "تسجيل الصوت التعليقي: صوت تعليقي احترافي بالدارجة الجزائرية أو الفرنسية يزيد التحويل بشكل كبير. ابحث عن فنانين صوتيين في مجموعات Facebook (ابحث عن 'voix off algérie') أو سجّل بنفسك في غرفة هادئة ثم حسّن بـAdobe Podcast.",
+              "تسعير الإعلانات: إعلان سوشيال ميديا 30 ث (تصوير + مونتاج) = 40–120K. إعلان تلفزيوني = 150–500K. مونتاج فقط (لقطات يوفرها الزبون) = اقسم هذه الأسعار على 3. (دج)"
+            ],
+            en: [
+              "Ad structure 30–60 seconds: 0–5s: Problem or tension (show the pain). 5–20s: Introduction of solution (show the product). 20–28s: Transformation and benefit (show person after). 28–30s: Call to action (logo + tagline + where to buy).",
+              "Pre-production: Client brief → script → storyboard (draw every shot on paper) → shot list → location scouting → talent → props list → shooting day schedule.",
+              "On-set coordination: direct talent — tell them exactly what to do, how to feel. Minimum 3 takes of every shot. Vary angles: wide, medium, close-up. Never leave the location without all shots on your list.",
+              "Post-production order: picture edit (rough cut) → sound design (voiceover, music, effects) → color grading (match brand colors) → graphics (logo reveals, titles, end card) → final review with client → export in multiple formats.",
+              "Voiceover recording: a professional voiceover in Algerian Darija or French dramatically increases conversion. Find voiceover artists in Facebook groups (search 'voix off algérie') or record yourself in a quiet room then enhance with Adobe Podcast.",
+              "Commercial pricing: 30s social media commercial (filming + editing) = 40–120K. TV commercial = 150–500K. Editing only (footage provided by client) = divide these by 3. (DZD)"
+            ]
+          },
+          method: {
+            fr: "Créez votre premier pub de démonstration: choisissez n'importe quel vrai produit local que vous utilisez. Écrivez un script de 30 secondes. Storyboardez-le. Filmez-le vous-même. Montez-le professionnellement. Publiez sur Instagram en taguant la marque. Cette approche a littéralement conduit des monteurs vidéo à être embauchés par les marques qu'ils ont taguées.",
+            ar: "أنشئ أول إعلانك التجريبي: اختار أي منتج محلي حقيقي تستخدمه. اكتب سكريبت 30 ثانية. أنشئ storyboard. صوّره بنفسك. عدّله احترافياً. انشر على Instagram مع وضع علامة للعلامة. هذا النهج أفضى فعلياً لتوظيف محرري فيديو من قِبل العلامات التي وضعوا لها علامة.",
+            en: "Create your first spec commercial: pick any real local product you use. Write a 30-second script. Storyboard it. Film it yourself. Edit it professionally. Post on Instagram tagging the brand. This approach has literally gotten video editors hired by the brands they tagged."
+          },
+          exercise: {
+            fr: "Scénarisez, storyboardez, filmez et montez un commercial complet de 30 secondes pour la marque fictive 'Sahara Fresh' — marque de jus bio algérienne. Filmez dans un lieu propre. Gradez avec des couleurs vibrantes et saines. Ajoutez musique de fond et voix off. Exportez 2 versions: horizontal (YouTube) et vertical (Reels).",
+            ar: "أنشئ سيناريو، storyboard، صوّر وعدّل إعلاناً تجارياً كاملاً مدته 30 ثانية للعلامة الوهمية 'Sahara Fresh' — علامة عصير عضوي جزائرية. صوّر في موقع نظيف. صحّح الألوان بألوان نابضة وصحية. أضف موسيقى خلفية وصوت تعليقي. صدّر نسختين: أفقية (YouTube) وعمودية (Reels).",
+            en: "Script, storyboard, film and edit a complete 30-second commercial for fictional brand 'Sahara Fresh' — an Algerian organic juice brand. Film in a clean location. Grade with vibrant healthy colors. Add background music and voiceover. Export 2 versions: horizontal (YouTube) and vertical (Reels)."
+          },
+          tip: {
+            fr: "💡 Le monteur commercial qui comprend la stratégie — pourquoi certains plans fonctionnent, quelles émotions conduisent les décisions d'achat — gagne 3× plus que celui qui ne connaît que le logiciel. Étudiez la psychologie publicitaire parallèlement à vos compétences techniques.",
+            ar: "💡 محرر الإعلانات الذي يفهم الاستراتيجية — لماذا تنجح لقطات معينة، أي مشاعر تقود قرارات الشراء — يكسب 3 أضعاف من يعرف البرنامج فقط. ادرس علم نفس الإعلان جنباً إلى جنب مع مهاراتك التقنية.",
+            en: "💡 The commercial editor who understands strategy — why certain shots work, what emotions drive purchase decisions — earns 3× more than one who only knows the software. Study advertising psychology alongside your technical skills."
+          }
+        }
+      ]
+    }
+  ]
+};
