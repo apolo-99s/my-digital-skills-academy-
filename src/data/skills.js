@@ -292,12 +292,8 @@ export const graphicDesign = {
       ]
     }
   ]
-};
-// ─────────────────────────────────────────────
-// GRAPHIC DESIGN — INTERMEDIATE
-// ─────────────────────────────────────────────
-// Add this inside graphicDesign.levels array
-// after the Beginner level object
+},
+
 {
   name: { fr: "Intermédiaire", ar: "متوسط", en: "Intermediate" },
   badge: "⚡",
