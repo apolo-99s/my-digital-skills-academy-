@@ -163,14 +163,7 @@ export default function Academy({ language, setLanguage }) {
         gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
         gap: 20,
       }}>
-        {skills.map(s => (
-          <SkillCard
-            key={s.id}
-            skill={s}
-            language={language}
-            onClick={() => goSkill(s.id)}
-          />
-        ))}
+       <div>TEST</div>
       </div>
 
       {/* Recommendation */}
