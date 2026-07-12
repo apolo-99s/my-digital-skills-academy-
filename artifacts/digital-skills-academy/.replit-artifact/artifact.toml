@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "DigitalSkills.dz Academy"
+version = "1.0.0"
+id = "artifacts/digital-skills-academy"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22272
+
+[services.development]
+run = "pnpm --filter @workspace/digital-skills-academy run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/digital-skills-academy", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/digital-skills-academy/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22272"
+BASE_PATH = "/"
